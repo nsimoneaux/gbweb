@@ -1,15 +1,49 @@
 body {
   background-color: #D6F6A9;
+  background-image: url("images/BG.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 h1, h2, h3 {
   color: white;
   text-align: center;
   text-shadow: 1px 1px black;
 }
-img.center {
+.center {
   display:block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3%;
+}
+.outer_div{
+  padding: 0px;
+  text-align: center;
+  white-space: nowrap;
+}
+.inner_div{
+  display: inline-block;
+  padding: 15px;
+}
+.link_boys{
+  padding: 25px;
+}
+.copy_notice{
+  font-family: serif;
+  font-size: 200%;
+  padding-top: 100px;
+}
+#sup{
+  transform: translateY(25%);
+}
+#ig{
+  transform: translateY(35%);
+}
+.link_text{
+  font-size: 200%;
+  color: black;
+  font-family: sans-serif;
+  padding: 3%;
 }
 p{
   text-align: center;
