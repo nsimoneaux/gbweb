@@ -11,6 +11,11 @@ h1, h2, h3 {
   text-align: center;
   text-shadow: 1px 1px black;
 }
+#kickstarter_button{
+  width:50%;
+  height: 50%;
+}
+
 .center {
   display:block;
   margin-left: auto;
